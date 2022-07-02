@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.triangular;
+})();
 })();
 </script>
 ```
@@ -405,6 +407,7 @@ var o = rand.toJSON();
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-triangular@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var seed;
 var rand;
@@ -432,6 +435,7 @@ for ( i = 0; i < 100; i++ ) {
     console.log( rand() );
 }
 
+})();
 })();
 </script>
 </body>
@@ -521,7 +525,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [triangular]: https://en.wikipedia.org/wiki/Triangular_distribution
 
-[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32/tree/umd
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32/tree/umd/tree/umd
 
 </section>
 
