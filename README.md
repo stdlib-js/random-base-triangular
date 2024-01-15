@@ -439,6 +439,14 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/random-array/triangular`][@stdlib/random/array/triangular]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a triangular distribution.</span>
+-   <span class="package-name">[`@stdlib/random-iter/triangular`][@stdlib/random/iter/triangular]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from a triangular distribution.</span>
+-   <span class="package-name">[`@stdlib/random-streams/triangular`][@stdlib/random/streams/triangular]</span><span class="delimiter">: </span><span class="description">create a readable stream for generating pseudorandom numbers drawn from a triangular distribution.</span>
+
 </section>
 
 <!-- /.related -->
@@ -515,6 +523,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [triangular]: https://en.wikipedia.org/wiki/Triangular_distribution
 
 [@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
+
+<!-- <related-links> -->
+
+[@stdlib/random/array/triangular]: https://github.com/stdlib-js/random-array-triangular
+
+[@stdlib/random/iter/triangular]: https://github.com/stdlib-js/random-iter-triangular
+
+[@stdlib/random/streams/triangular]: https://github.com/stdlib-js/random-streams-triangular
+
+<!-- </related-links> -->
 
 </section>
 
