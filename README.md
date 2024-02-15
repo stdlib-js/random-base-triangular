@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-triangular@esm/index.mjs';
+import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-triangular@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-triangular@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-triangular@v0.2.0-esm/index.mjs';
 ```
 
 #### triangular( a, b, c )
@@ -397,7 +397,7 @@ var o = rand.toJSON();
 <body>
 <script type="module">
 
-import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-triangular@esm/index.mjs';
+import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-triangular@v0.2.0-esm/index.mjs';
 
 var seed;
 var rand;
