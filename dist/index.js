@@ -1,4 +1,4 @@
-"use strict";var l=function(t,r){return function(){return r||t((r={exports:{}}).exports,r),r.exports}};var w=l(function(er,N){
+"use strict";var l=function(t,r){return function(){try{return r||t((r={exports:{}}).exports,r),r.exports}catch(e){throw (r=0, e)}};};var w=l(function(er,N){
 var c=require('@stdlib/assert-is-number/dist').isPrimitive,v=require('@stdlib/error-tools-fmtprodmsg/dist'),q=require('@stdlib/assert-is-nan/dist');function H(t,r,e){return !c(t)||q(t)?new TypeError(v('0p96v',t)):!c(r)||q(r)?new TypeError(v('0p96w',r)):!c(e)||q(e)?new TypeError(v('0p97C',e)):t<=e&&e<=r?null:new RangeError(v('0p99C',"a <= c <= b",t,r,e));}N.exports=H
 });var L=l(function(tr,O){
 var b=require('@stdlib/math-base-special-sqrt/dist');function I(t,r,e,o){var a,u,i;return a=(o-r)/(e-r),i=t(),i<a?(u=(e-r)*(o-r),r+b(u*i)):(u=(e-r)*(e-o),e-b(u*(1-i)))}O.exports=I
